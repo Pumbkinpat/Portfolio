@@ -323,3 +323,73 @@ span {
     transform: translateY(-5px) scale(1.03);
     cursor: pointer;
 }
+
+/* Contact section code */
+
+.contact {
+    background-color: var(--second-bg-color);
+}
+
+.contace h2 {
+    margin-bottom: 3rem;
+    color: var(--text-color);
+}
+
+.contact form {
+    max-width: 90rem;
+    margin: 1rem auto 3rem;
+    text-align: center;
+}
+
+.contact form .input-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.contact form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    background: var(--bg-color);
+    border: 1px solid var(--main-color);
+    border-radius: 0.8rem;
+    margin-block: 0.7rem;
+    resize: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: gray;
+    transition: background-color 5000s ease-in-out 0s;
+    box-shadow: inset 0 0 20px 20px var(--bg-color);
+}
+
+.contact form .input-box input {
+    width: 49%;
+    margin: 0.7rem 0.35rem;
+}
+
+.contact form .btn {
+    margin-top: 2rem;
+}
+
+/* footer section code */
+
+.footer {
+    position: relative;
+    bottom: 0;
+    padding-block: 40px;
+    background: var(--bg-color);
+    text-align: center;
+}
+
+.footer .copyright {
+    margin-top: 20px;
+    font-size: 16px;
+    color: var(--text-color);
+}
