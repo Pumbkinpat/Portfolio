@@ -11,7 +11,7 @@
         />
 
         <!-- link css -->
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="../assets/Css/style.css" />
         <!-- javascript -->
          <script defer src="./script.js" ></script>
     </head>
@@ -59,14 +59,14 @@
             </div>
 
             <div class="home-img">
-                <img src="./assets/images/image.jpg" alt="Profile Image" />
+                <img src="../assets/images/image.jpg" alt="Profile Image" />
             </div>
         </section>
 
         <!-- About section code -->
         <section class="about" id="about">
             <div class="about-img">
-                <img src="assets/images/image.jpg" alt="" />
+                <img src="../assets/images/image.jpg" alt="" />
             </div>
 
             <div class="about-content">
@@ -88,7 +88,7 @@
 
             <div class="portfolio-content">
                 <div class="row">
-                    <img src="assets/images/1.jpg" alt="" />
+                    <img src="../assets/images/1.jpg" alt="" />
 
                     <div class="main-row">
                         <div class="row-text">
@@ -103,7 +103,7 @@
                 </div>
                 
                 <div class="row">
-                    <img src="assets/images/2.jpg" alt="" />
+                    <img src="../assets/images/2.jpg" alt="" />
 
                     <div class="main-row">
                         <div class="row-text">
@@ -118,7 +118,7 @@
                 </div>
 
                 <div class="row">
-                    <img src="assets/images/3.jpg" alt="" />
+                    <img src="../assets/images/3.jpg" alt="" />
 
                     <div class="main-row">
                         <div class="row-text">
@@ -133,7 +133,7 @@
                 </div>
 
                 <div class="row">
-                    <img src="assets/images/4.jpg" alt="" />
+                    <img src="../assets/images/4.jpg" alt="" />
 
                     <div class="main-row">
                         <div class="row-text">
@@ -148,7 +148,7 @@
                 </div>
 
                 <div class="row">
-                    <img src="assets/images/5.jpg" alt="" />
+                    <img src="../assets/images/5.jpg" alt="" />
 
                     <div class="main-row">
                         <div class="row-text">
@@ -163,7 +163,7 @@
                 </div>
 
                 <div class="row">
-                    <img src="assets/images/6.jpg" alt="" />
+                    <img src="../assets/images/6.jpg" alt="" />
 
                     <div class="main-row">
                         <div class="row-text">
@@ -180,24 +180,24 @@
         </section>
 
         <!-- Contact section code -->
-         <section class="contact" id="contact">
+        <section class="contact" id="contact">
             <h2 class="heading">Contact <span>Me</span></h2>
-
-            <form action="#">
+        
+            <form id="contactForm">
                 <div class="input-box">
-                    <input type="text" placeholder="Full Name">
-                    <input type="email" placeholder="Email Address">
+                    <input type="text" id="fullName" placeholder="Full Name" required>
+                    <input type="email" id="emailAddress" placeholder="Email Address" required>
                 </div>
                 <div class="input-box">
-                    <input type="number" placeholder="Phone number">
-                    <input type="text" placeholder="Email Subject">
+                    <input type="number" id="phoneNumber" placeholder="Phone Number">
+                    <input type="text" id="emailSubject" placeholder="Email Subject" required>
                 </div>
-
-                <textarea name="message" id="" cols="30" rows="10" placeholder="Your message"></textarea>
-
+        
+                <textarea id="message" cols="30" rows="10" placeholder="Your message" required></textarea>
+        
                 <input type="submit" value="send message" class="btn">
             </form>
-         </section>
+        </section>        
 
          <!-- Footer section code -->
           <footer class="footer">
